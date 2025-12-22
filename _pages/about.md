@@ -21,7 +21,7 @@ I am broadly interersted in both the theoretical limits and emprical application
 - Development of *practical* and *provably sound* reinforcement learning methods for decision-making during model training and deployment.
 
 <h3 class="nus-blue">Reinforcement Learning and Bandit Algorithm</h3>
-- Characterization of theoretical limits of decision-making under practical modeling assumptions (e.g., stationary v.s. non-stationary, single- v.s. multi-agent), possibly subject to realistic constraints (e.g., efficiency or risk requirements).
+- Characterization of fundamental limits of decision-making under practical modeling assumptions (e.g., stationary v.s. non-stationary, single- v.s. multi-agent), possibly subject to realistic constraints (e.g., efficiency or risk requirements).
 - Design of provable algorithms that approach the fundamental performance limits.
 
 
