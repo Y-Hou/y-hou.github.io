@@ -41,3 +41,53 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+
+/* ===== Custom publications styling (Dylan-like) ===== */
+.pub-entry { margin: 0 0 1.25rem 0; }
+
+.pub-title {
+  font-size: 1.02rem;
+  line-height: 1.35;
+}
+
+.pub-meta { margin-top: 0.15rem; }
+
+.pub-note { font-style: italic; }
+
+.pub-links {
+  margin-top: 0.15rem;
+  font-size: 0.95rem;
+}
+
+/* ===== Publications page title (NUS style) ===== */
+// .page__title {
+//   color: #003D7C;      /* NUS blue */
+//   font-weight: 700;
+//   letter-spacing: -0.01em;
+// }
+
+.pub-title a {
+  color: #003D7C;
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  text-decoration: underline;
+}
+
+.nus-blue {
+  color: #003D7C;
+}
+
+// /* Square profile photo */
+// .author__avatar img {
+//   border-radius: 8px;
+// }
+
+.author__avatar img {
+  border-radius: 8px;
+  width: 100%;
+  max-width: 220px;   /* adjust */
+  height: auto;
+}

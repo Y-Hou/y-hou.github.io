@@ -5,14 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
+<!-- {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+{% include base_path %} -->
 
 <!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
+<!-- {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
@@ -30,7 +30,38 @@ author_profile: true
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
+{% endif %} -->
+
+I am broadly interersted in both the theoretical limits and emprical applications of reinforcement learning and online learning (e.g., multi-armed bandits), with current emphasis on theoretically-guaranteed algorithmic design in Large Language Models. Feel free to contact me if you share similar interests.
+
+{% assign pubs = site.publications | sort: 'date' | reverse %}
+
+{%- comment -%} 1) Monographs first {%- endcomment -%}
+{% assign journals = pubs | where: "pub_section", "journals" %}
+{% if journals.size > 0 %}
+<h2>Journals</h2>
+
+{% for post in journals %}
+  {% include publication-custom-format.html post=post %}
+{% endfor %}
+{% endif %}
+
+{% assign conferences = pubs | where: "pub_section", "conferences" %}
+{% if conferences.size > 0 %}
+<h2>Conferences</h2>
+
+{% for post in conferences %}
+  {% include publication-custom-format.html post=post %}
+{% endfor %}
 {% endif %}
 
 
+{% assign by_year = rest | group_by_exp: "p", "p.date | date: '%Y'" %}
 
+{% for y in by_year %}
+## {{ y.name }}
+* * *
+{% for post in y.items %}
+  {% include publication-custom-format.html post=post %}
+{% endfor %}
+{% endfor %}

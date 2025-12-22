@@ -1,0 +1,31 @@
+{% assign t = include.post %}
+
+<div class="pub-entry">
+  <div class="pub-title">
+    {% if t.link %}
+      <a href="{{ t.link }}" class="nus-blue">
+        <strong>{{ t.title }}</strong>
+      </a>
+    {% else %}
+      <span class="nus-blue">
+        <strong>{{ t.title }}</strong>
+      </span>
+    {% endif %}
+  </div>
+
+  <div class="pub-meta">
+    {% if t.venue %}{{ t.venue }}.{% endif %}
+    {% if t.location %} {{ t.location }}.{% endif %}
+    {% if t.date %}<br/>{{ t.date | date: "%B %Y" }}{% endif %}
+  </div>
+
+  {% if t.note %}
+    <div class="pub-note"><strong>Remark:</strong> {{ t.note }}</div>
+  {% endif %}
+
+  <div class="pub-links">
+    {% if t.slides %}<a href="{{ t.slides }}">slides</a>{% endif %}
+    {% if t.video %}{% if t.slides %} · {% endif %}<a href="{{ t.video }}">video</a>{% endif %}
+    {% if t.paperurl %}{% if t.slides or t.video %} · {% endif %}<a href="{{ t.paperurl }}">paper</a>{% endif %}
+  </div>
+</div>
