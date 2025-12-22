@@ -14,14 +14,14 @@ Previously, I received my BS in Mathematics from [Beijing Normal University](htt
 
 Research
 ===
-I am broadly interersted in both the theoretical limits and emprical applications of reinforcement learning and online learning (e.g., multi-armed bandits), with current emphasis on theoretically-guaranteed algorithmic design in Large Language Models.
+I am broadly interersted in both the theoretical limits and emprical applications of reinforcement learning and online learning (e.g., multi-armed bandits), with current emphasis on theoretically-guaranteed algorithmic design in Large Language Models. Feel free to reach out if you share similar interests!
 
 
 <h3 class="nus-blue">Theoretically-grounded Applications of Reinforcement Learning</h3>
-- Development of *practical* and *provably* sound reinforcement learning methods for decision-making during model training and deployment.
+- Development of *practical* and *provably sound* reinforcement learning methods for decision-making during model training and deployment.
 
-<h3 class="nus-blue">Reinforcement Learning and Bandit Algorithm Design and Theory</h3>
-- Characterization of theoretical limits of decision making under practical modeling assumptions (e.g., stationary v.s. non-stationary, single- v.s. multi-agent), possibly subject to realistic constraints (e.g., efficiency or risk requirements).
+<h3 class="nus-blue">Reinforcement Learning and Bandit Algorithm</h3>
+- Characterization of theoretical limits of decision-making under practical modeling assumptions (e.g., stationary v.s. non-stationary, single- v.s. multi-agent), possibly subject to realistic constraints (e.g., efficiency or risk requirements).
 - Design of provable algorithms that approach the fundamental performance limits.
 
 
