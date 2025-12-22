@@ -9,7 +9,7 @@ author_profile: true
 **National University of Singapore**, Deparment of Mathematics, PhD
 - Advisor: Prof. [Vincent Y. F. Tan](https://vyftan.github.io/index.html)
 
-**Beijing Normal University**, Deparment of Mathematics, BS
+**Beijing Normal University**, School of Mathematical Sciences (Liyun class), BS
 - Thesis advisor: Prof. Huajie Chen and Prof. Shihua Zhang
 
 
