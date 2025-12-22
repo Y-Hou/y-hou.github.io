@@ -1,0 +1,30 @@
+{% assign p = include.post %}
+
+<div class="pub-entry">
+  <div class="pub-title">
+    {% if p.paperurl %}
+      <a href="{{ p.paperurl }}"><strong>{{ p.title }}</strong></a>
+    {% else %}
+      <strong>{{ p.title }}</strong>
+    {% endif %}
+  </div>
+
+  <div class="pub-meta">
+    {% if p.authors %}{{ p.authors }}.{% endif %}
+    {% if p.venue %}<br/>{{ p.venue }}
+    <!-- {% if p.date %}, {{ p.date | date: "%Y" }}{% endif %}. -->
+    {% endif %}
+    {% if p.note %}
+      <div class="pub-note">
+        <strong>TL;DR:</strong> {{ p.note }}
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="pub-links">
+    <!-- {% if p.paperurl %}<a href="{{ p.paperurl }}">paper</a>{% endif %} -->
+    {% if p.code %}{% if p.paperurl %} · {% endif %}<a href="{{ p.code }}">code</a>{% endif %}
+    {% if p.slides %} · <a href="{{ p.slides }}">slides</a>{% endif %}
+    {% if p.bibtex %} · <a href="{{ p.bibtex }}">bib</a>{% endif %}
+  </div>
+</div>
