@@ -16,6 +16,10 @@ Research
 ===
 I am broadly interersted in both the theoretical limits and emprical applications of reinforcement learning and online learning (e.g., multi-armed bandits), with current emphasis on theoretically-guaranteed algorithmic design in Large Language Models. Feel free to reach out if you share similar interests!
 
+<p style="text-align: center; color: #e9a86a;">
+  I am currently seeking postdoctoral positions. Please feel free to reach out!
+</p>
+
 
 <h3 class="nus-blue">Theoretically-grounded Applications of Reinforcement Learning</h3>
 - Development of *practical* and *provably sound* reinforcement learning methods for decision-making during model training and deployment.
@@ -27,4 +31,5 @@ I am broadly interersted in both the theoretical limits and emprical application
 
 News
 ===
-- [2025-12-22] Yunlong’s homepage is finally online! 🎉 Hello, world!
+- [2026-01] Posted "[Demystifying the Slash Pattern in Attention: The Role of RoPE](https://fengzhuo.notion.site/Demystifying-the-Slash-Pattern-in-Attention-The-Role-of-RoPE-2e90750f8b0c817d9d92d33f81ffd87c)". We found RoPE is related to the emergence of slash patterns in attetion matrices. Huge thanks to the amazing collaborators!
+- [2025-12-22] Yunlong’s homepage was finally online! 🎉 Hello, world!

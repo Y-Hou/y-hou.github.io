@@ -37,6 +37,15 @@ I am broadly interersted in both the theoretical limits and emprical application
 {% assign pubs = site.publications | sort: 'date' | reverse %}
 
 {%- comment -%} 1) Monographs first {%- endcomment -%}
+{% assign preprints = pubs | where: "pub_section", "preprints" %}
+{% if preprints.size > 0 %}
+<h2>Preprints</h2>
+
+{% for post in preprints %}
+  {% include publication-custom-format.html post=post %}
+{% endfor %}
+{% endif %}
+
 {% assign journals = pubs | where: "pub_section", "journals" %}
 {% if journals.size > 0 %}
 <h2>Journals</h2>
