@@ -9,8 +9,8 @@ redirect_from:
 
 
 
-I am a PhD student at the [Department of Mathematics](https://www.math.nus.edu.sg), [National University of Singapore](https://www.nus.edu.sg), and I am previleged to be supervised by Prof. [Vincent Y. F. Tan](https://vyftan.github.io/index.html). 
-Previously, I received my BS in Mathematics from [Beijing Normal University](https://english.bnu.edu.cn), advised by Prof. Huajie Chen and Prof. Shihua Zhang.
+I am a research fellow at the [Department of Mathematics](https://www.math.nus.edu.sg), [National University of Singapore](https://www.nus.edu.sg). Previously, I obtained my PhD at NUS and I was previleged to be supervised by Prof. [Vincent Y. F. Tan](https://vyftan.github.io/index.html). 
+Before that, I received my BS in Mathematics from [Beijing Normal University](https://english.bnu.edu.cn), advised by Prof. Huajie Chen and Prof. Shihua Zhang.
 
 Research
 ===
@@ -31,5 +31,6 @@ I am broadly interersted in both the theoretical limits and emprical application
 
 News
 ===
-- [2026-01] Posted "[Demystifying the Slash Pattern in Attention: The Role of RoPE](https://fengzhuo.notion.site/Demystifying-the-Slash-Pattern-in-Attention-The-Role-of-RoPE-2e90750f8b0c817d9d92d33f81ffd87c)". We found RoPE is related to the emergence of slash patterns in attetion matrices. Huge thanks to the amazing collaborators!
+- [2026-01] I PhinisheD my PhD study! Great thanks to the support from everyone, especially my supervisor Prof. Vincent Tan! 
+- [2026-01] Posted "[Demystifying the Slash Pattern in Attention: The Role of RoPE](https://fengzhuo.notion.site/Demystifying-the-Slash-Pattern-in-Attention-The-Role-of-RoPE-2e90750f8b0c817d9d92d33f81ffd87c)". We found RoPE is related to the emergence of slash patterns in attention matrices. Huge thanks to the amazing collaborators!
 - [2025-12-22] Yunlong’s homepage was finally online! 🎉 Hello, world!
