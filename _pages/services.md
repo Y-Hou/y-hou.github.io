@@ -11,7 +11,7 @@ author_profile: true
 - ICLR (2024-2026)
 - ISIT (2024)
 - AISTATS (2025, 2026)
-- ICML (2025, 2026)
+- ICML (2025, 2026), gold reviewer for ICML 2026.
 
 ## Journal Reviewer
 - IEEE Transactions on Information Theory (TIT) 

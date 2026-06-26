@@ -20,6 +20,7 @@ author_profile: true
 - LLM Research towards Medical Insurance: Conducted research and fined-tuned LLMs to detect possible fraud in medical insurance.
 
 <h2 class="nus-blue">Awards</h2>
+- Gold Reviewer for ICML 2026.
 - Graduate Tutor Merit Award from Department of Mathematics, NUS.
 - Top Reviewer for NeurIPS 2024.
 - PhD Conference Award from Faculty of Science, NUS.
