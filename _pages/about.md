@@ -31,9 +31,11 @@ I am broadly interersted in both the theoretical limits and emprical application
 
 News
 ===
-- [2026-06] Posted "[On the Benefits of Free Exploration for Regret Minimization in Multi-Armed Bandits](https://arxiv.org/abs/2605.25789)". We study a variant of the regret minimization problem in stochastic MAB, where the learner is granted  a free exploration time period before regret starts to accumulate. Joint work with Zixin and Vincent.
+- [2026-06] Posted "[Bayesian Best-Arm Identification with Abstention: A
+Polynomial-to-Exponential Phase Transition](https://arxiv.org/pdf/2606.29203)". We study fixed-budget BAI in the Bayesian setting, allowing the learner to abstain at the end of the sampling process. This abstention option induces a fundamental transition in the error probability from polynomial to exponential decay. Joint work with Yuqi and Vincent.
 - [2026-06] "[Rethinking "RL Generalizes, SFT Memorizes": The Role of SFT Data](https://openreview.net/pdf/4e2eb2f8ed06dc8b69c3566884dd12a1b62af45a.pdf)" accepted to the first Foundations of Deep Generative Models (FoGen) workshop, ICML 2026, and 2026 INFORMS Annual Meeting. We revisit the generalization ability of SFT and RL training from the data perspective. Great thanks to the wonderful collaborators!
 - [2026-06] "[Demystifying the Slash Pattern in Attention: The Role of RoPE](https://openreview.net/pdf?id=hJHQ2EQULj)" accepted to the first Foundations of Deep Generative Models (FoGen) workshop, ICML 2026.
+- [2026-05] Posted "[On the Benefits of Free Exploration for Regret Minimization in Multi-Armed Bandits](https://arxiv.org/abs/2605.25789)". We study a variant of the regret minimization problem in stochastic MAB, where the learner is granted  a free exploration time period before regret starts to accumulate. Joint work with Zixin and Vincent.
 - [2026-01] I PhinisheD my PhD study! Great thanks to the support from everyone, especially my supervisor Prof. Vincent Tan! 
 - [2026-01] Posted "[Demystifying the Slash Pattern in Attention: The Role of RoPE](https://fengzhuo.notion.site/Demystifying-the-Slash-Pattern-in-Attention-The-Role-of-RoPE-2e90750f8b0c817d9d92d33f81ffd87c)". We found RoPE is related to the emergence of slash patterns in attention matrices. Huge thanks to the amazing collaborators!
 - [2025-12-22] Yunlong’s homepage was finally online! 🎉 Hello, world!
